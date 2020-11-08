@@ -1,0 +1,57 @@
+.ruleGroup {
+    background-color: #e4e4e4;
+    text-align: end;
+    padding: 10px;
+  }
+  .ruleGroup, .ruleGroup .ruleGroup, .ruleGroup .rule {
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05)
+  }
+  .ruleGroup .rule {
+    background-color: #f5f5f5;
+    border-left: 2px solid #00bcd4;
+    padding: 1rem;
+    text-align: center;
+    margin: 5px;
+  }
+  .ruleGroup .ruleGroup {
+    border-left: 2px solid #8bc34a;
+  }
+  .ruleGroup-remove, .rule-remove {
+    float: right;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 6px 12px;
+    margin-right: 20px;
+    background-color: #8bc34a;
+  }
+  .ruleGroup-combinators{
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 6px 12px;
+  }
+  .ruleGroup-addGroup {
+    display: none;
+  }
+  .ruleGroup-addRule {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 6px 12px;
+    margin-right: 20px;
+    background-color: #8bc34a;
+  }
+  .rule-fields,
+  .rule-operators,
+  .rule-value {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 6px 12px;
+    margin-right: 20px;
+    background-color: white;
+  }
+  .ruleGroup-remove, .rule-remove {
+    background: transparent;
+    border: none;
+  }
