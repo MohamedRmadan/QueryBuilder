@@ -1,6 +1,6 @@
 # QueryBuilder
 
-A Small project to filter users and show some chars.
+A Small project to filter users and show some charts.
 
 ## Installation
 
@@ -34,5 +34,5 @@ http://localhost:3000
 ```
 ### back end link :
 ```link
-http://localhost:5000
+http://localhost:5050
 ```
